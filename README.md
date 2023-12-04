@@ -8,7 +8,7 @@ This Arduino sketch demonstrates a simple fire sensor alarm system using an Ardu
   Buzzer
   
 ->Wiring : 
- Connect the fire sensor to Pin 7 (fireSensorPin)
+ Connect the fire sensor to Pin 7 (fireSensorPin) & 
  Connect the buzzer to Pin 8 (buzzerPin)
 
 ->Setup :
@@ -22,6 +22,7 @@ This Arduino sketch demonstrates a simple fire sensor alarm system using an Ardu
   If the fire sensor detects a fire (returns a LOW signal), the buzzer is activated for 3 seconds.
   If no fire is detected (HIGH signal), the buzzer remains off.
   The sensor values are displayed in the serial monitor.
+  
 ->Important Notes :
   Adjust the delay time according to your requirements for the alarm duration and sensor reading frequency.
   Ensure proper connections and power supply for the components.
